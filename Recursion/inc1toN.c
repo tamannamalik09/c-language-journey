@@ -1,9 +1,10 @@
 #include<stdio.h> 
 void increasing (int n){
-    if( n == 0) return; // base case
-    increasing (n-1); // call
-    printf("%d\n",n); // code
-    return;
+    if( n>0)
+    { 
+        increasing (n-1); // call
+        printf("%d ",n); // code
+    }
 }
 int main(){ 
     int n;

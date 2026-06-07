@@ -1,9 +1,10 @@
 #include<stdio.h>
 void decreasing(int n){
-    if(n == 0) return;
-    else printf("%d ",n);
-    decreasing(n-1);
-    return;
+    if(n>0)
+    {
+        printf("%d ",n);
+        decreasing(n-1);
+    }
 }
 int main(){
     int n;
