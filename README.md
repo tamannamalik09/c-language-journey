@@ -9,7 +9,6 @@ This repository contains my C programming notes and practice programs.
 - Two-Dimensional Arrays
 - Functions and Pointers
 - Recursion
-- File Handling
 - Conditional Statements and Loops
 
 ## Purpose
